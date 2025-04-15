@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tama Living - Furniture Company</title>
+    <link rel="stylesheet" href="src/css/output.css" />
+  </head>
+  <body class="font-sans">
+    <header class="bg-white py-4 px-4 md:px-6 shadow-sm relative">
+      <div
+        class="container mx-auto flex items-center justify-between lg:hidden"
+      >
+        <div class="text-xl font-bold text-primary">Tama Living</div>
+        <button class="text-primary" id="menuToggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="hidden lg:flex container mx-auto items-center">
+        <div class="w-1/3 flex justify-start">
+          <nav class="flex space-x-6">
+            <a href="#" class="text-gray-800 hover:text-primary">Collections</a>
+            <a href="#" class="text-gray-800 hover:text-primary"
+              >Craftsmanship</a
+            >
+            <a href="#" class="text-gray-800 hover:text-primary">Showrooms</a>
+            <a href="#" class="text-gray-800 hover:text-primary"
+              >Custom Design</a
+            >
+          </nav>
+        </div>
+
+        <div class="w-1/3 flex justify-center">
+          <div class="text-xl font-bold text-primary text-center">
+            Tama Living
+          </div>
+        </div>
+
+        <div class="w-1/3 flex justify-end">
+          <button
+            class="bg-primary text-white px-6 py-2 rounded hover:bg-primary-light transition-colors"
+          >
+            Visit Showroom
+          </button>
+        </div>
+      </div>
+      <div class="lg:hidden">
+        <div
+          id="mobileMenu"
+          class="hidden absolute left-0 right-0 top-full bg-white shadow-lg z-50 py-4 px-4"
+        >
+          <nav class="flex flex-col space-y-4 mb-6">
+            <a
+              href="#"
+              class="text-gray-800 hover:text-primary py-2 border-b border-gray-200"
+              >Collections</a
+            >
+            <a
+              href="#"
+              class="text-gray-800 hover:text-primary py-2 border-b border-gray-200"
+              >Craftsmanship</a
+            >
+            <a
+              href="#"
+              class="text-gray-800 hover:text-primary py-2 border-b border-gray-200"
+              >Showrooms</a
+            >
+            <a
+              href="#"
+              class="text-gray-800 hover:text-primary py-2 border-b border-gray-200"
+              >Custom Design</a
+            >
+          </nav>
+          <button
+            class="bg-primary text-white px-6 py-3 rounded w-full hover:bg-primary-light transition-colors"
+          >
+            Visit Showroom
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-gray-50 py-12 md:py-36">
+      <div
+        class="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center"
+      >
+        <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+          <h1
+            class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-primary"
+          >
+            Crafting Timeless Furniture For Modern Living
+          </h1>
+          <p class="text-base md:text-lg text-gray-700 mb-8">
+            At Tama Living, we blend traditional craftsmanship with contemporary
+            design to create furniture that transforms your living spaces into
+            expressions of comfort and style. Each piece tells a story of
+            quality, sustainability, and artisanal excellence.
+          </p>
+          <button
+            class="bg-primary text-white px-8 py-3 rounded font-medium hover:bg-primary-light transition-colors"
+          >
+            Explore Collections
+          </button>
+        </div>
+
+        <div class="md:w-1/2">
+          <div
+            class="rounded-lg overflow-hidden border border-gray-200 shadow-lg"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+              alt="Tama Living Furniture Showroom"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-primary text-white py-16 md:py-20 relative overflow-hidden"
+    >
+      <div class="container mx-auto px-4 md:px-6 relative z-10">
+        <div class="max-w-3xl mx-auto text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            Our Craftsmanship Legacy
+          </h2>
+          <div class="w-24 h-1 bg-secondary mx-auto mb-6"></div>
+          <p class="text-lg text-gray-200 leading-relaxed">
+            For three generations, we've been handcrafting furniture that stands
+            the test of time. Our commitment to quality materials and
+            sustainable practices has earned us recognition worldwide.
+          </p>
+        </div>
+        <div class="max-w-4xl mx-auto">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-0 md:mb-6 lg:mb-0"
+          >
+            <div
+              class="bg-gradient-to-br from-primary-light to-primary p-6 rounded-lg flex flex-col items-center shadow-lg transform transition-transform hover:scale-105 border border-primary-light h-full"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-secondary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <span class="text-4xl md:text-5xl font-bold mb-2 text-white"
+                >35+</span
+              >
+              <span class="text-gray-200 text-center font-medium"
+                >Years of Craftsmanship</span
+              >
+            </div>
+            <div
+              class="bg-gradient-to-br from-primary-light to-primary p-6 rounded-lg flex flex-col items-center shadow-lg transform transition-transform hover:scale-105 border border-primary-light h-full"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-secondary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                  />
+                </svg>
+              </div>
+              <span class="text-4xl md:text-5xl font-bold mb-2 text-white"
+                >12k+</span
+              >
+              <span class="text-gray-200 text-center font-medium"
+                >Pieces Crafted</span
+              >
+            </div>
+
+            <div
+              class="hidden lg:flex flex-col bg-gradient-to-br from-primary-light to-primary p-6 rounded-lg items-center shadow-lg transform transition-transform hover:scale-105 border border-primary-light h-full"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-secondary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  />
+                </svg>
+              </div>
+              <span class="text-4xl md:text-5xl font-bold mb-2 text-white"
+                >18</span
+              >
+              <span class="text-gray-200 text-center font-medium"
+                >Design Awards</span
+              >
+            </div>
+
+            <div
+              class="hidden lg:flex flex-col bg-gradient-to-br from-primary-light to-primary p-6 rounded-lg items-center shadow-lg transform transition-transform hover:scale-105 border border-primary-light h-full"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-secondary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  />
+                </svg>
+              </div>
+              <span class="text-4xl md:text-5xl font-bold mb-2 text-white"
+                >100%</span
+              >
+              <span class="text-gray-200 text-center font-medium"
+                >Sustainable Materials</span
+              >
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:hidden gap-6 mt-6">
+            <div
+              class="bg-gradient-to-br from-primary-light to-primary p-6 rounded-lg flex flex-col items-center shadow-lg transform transition-transform hover:scale-105 border border-primary-light h-full"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-secondary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  />
+                </svg>
+              </div>
+              <span class="text-4xl md:text-5xl font-bold mb-2 text-white"
+                >18</span
+              >
+              <span class="text-gray-200 text-center font-medium"
+                >Design Awards</span
+              >
+            </div>
+            <div
+              class="bg-gradient-to-br from-primary-light to-primary p-6 rounded-lg flex flex-col items-center shadow-lg transform transition-transform hover:scale-105 border border-primary-light h-full"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-secondary/20 flex items-center justify-center mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-secondary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  />
+                </svg>
+              </div>
+              <span class="text-4xl md:text-5xl font-bold mb-2 text-white"
+                >100%</span
+              >
+              <span class="text-gray-200 text-center font-medium"
+                >Sustainable Materials</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-0 my-10 md:my-0 md:mx-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div class="relative p-6 md:p-10">
+            <div class="relative z-10">
+              <h3 class="text-3xl font-bold text-primary mb-5">
+                Sustainable Craftsmanship
+              </h3>
+              <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+                Our commitment to sustainability goes beyond materials. We
+                employ traditional joinery techniques that eliminate the need
+                for chemical adhesives, and our finishing processes use natural
+                oils and waxes that are safe for your home and the environment.
+              </p>
+              <ul class="space-y-4">
+                <li class="flex items-start">
+                  <span class="text-primary mr-3 text-xl">•</span>
+                  <span class="text-gray-700 text-lg"
+                    >Responsibly sourced hardwoods from managed forests</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <span class="text-primary mr-3 text-xl">•</span>
+                  <span class="text-gray-700 text-lg"
+                    >Zero-VOC finishes for healthier indoor air quality</span
+                  >
+                </li>
+                <li class="flex items-start">
+                  <span class="text-primary mr-3 text-xl">•</span>
+                  <span class="text-gray-700 text-lg"
+                    >Carbon-neutral manufacturing processes</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="relative p-8 md:p-12 flex ml-[-20px] justify-center items-center"
+            style="z-index: 10"
+          >
+            <svg
+              width="80%"
+              height="auto"
+              viewBox="0 0 443 718"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="max-w-md transform scale-110"
+            >
+              <path
+                d="M287.964 432.86L428.031 572.927H287.964V432.86Z"
+                fill="#F2DE9B"
+                stroke-width="2"
+              />
+              <path
+                d="M144.482 289.378L284.549 429.445H144.482V289.378Z"
+                fill="#202216"
+                stroke="#202216"
+                stroke-width="2"
+              />
+              <path
+                d="M145.896 285.964L285.964 145.896V285.964H145.896Z"
+                fill="#202216"
+                stroke="#202216"
+                stroke-width="2"
+              />
+              <circle
+                cx="73.5344"
+                cy="502.186"
+                r="70.7409"
+                transform="rotate(-90 73.5344 502.186)"
+                fill="#F2DE9B"
+                stroke-width="2"
+              />
+
+              <circle
+                cx="371.259"
+                cy="336.285"
+                r="70.7409"
+                transform="rotate(-90 371.259 336.285)"
+                fill="#202216"
+                stroke="#202216"
+                stroke-width="2"
+              />
+              <rect
+                x="1"
+                y="285.964"
+                width="141.482"
+                height="141.482"
+                transform="rotate(-90 1 285.964)"
+                fill="#F2DE9B"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full overflow-hidden">
+      <div class="flex flex-col md:flex-row">
+        <div
+          class="w-full md:w-1/2 bg-primary relative flex items-center justify-center py-16 md:py-0"
+          style="min-height: 500px"
+        >
+          <div
+            class="relative w-4/5 max-w-md aspect-square bg-white rounded-lg overflow-hidden"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Handcrafted furniture detail"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute top-10 right-10 w-16 h-16 rounded-full border-2 border-secondary opacity-50"
+          ></div>
+          <div
+            class="absolute bottom-10 left-10 w-24 h-24 bg-primary-light opacity-30 transform rotate-45"
+          ></div>
+        </div>
+
+        <div
+          class="w-full md:w-1/2 relative flex items-center py-16 px-8 md:px-16"
+        >
+          <div class="max-w-lg">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">
+              The Art of Timeless Design
+            </h2>
+
+            <p class="text-gray-700 text-lg mb-8 leading-relaxed">
+              At Tama Living, we believe furniture should be more than
+              functional—it should be an expression of artistry that stands the
+              test of time. Our design philosophy combines clean lines with
+              organic forms, creating pieces that feel both contemporary and
+              timeless.
+            </p>
+
+            <p class="text-gray-700 mb-10">
+              Each piece in our collection is thoughtfully designed to enhance
+              your living space while honoring the natural beauty of our
+              sustainably sourced materials. We embrace the Japanese concept of
+              "wabi-sabi"—finding beauty in imperfection—allowing the unique
+              grain patterns and natural characteristics of wood to shine
+              through.
+            </p>
+
+            <a
+              href="#"
+              class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300 px-8 py-3 rounded-md font-medium"
+            >
+              Explore Our Process
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-24 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-10 items-center"
+        >
+          <div class="max-w-xl">
+            <h2 class="text-4xl font-bold text-primary mb-8">
+              Our Vision for Timeless Living
+            </h2>
+
+            <p class="text-lg text-gray-700 mb-8">
+              "At Tama Living, we're not just creating furniture; we're crafting
+              experiences that become part of your family's story. Our
+              commitment to excellence goes beyond aesthetics—it's about
+              creating pieces that evolve with you, gaining character and
+              history with each passing year."
+            </p>
+
+            <p class="text-base text-gray-600 mb-8">
+              "We believe that in a world of mass production and disposable
+              goods, there's profound value in owning furniture that's built
+              with intention, integrity, and a deep respect for natural
+              materials. This philosophy has guided our company for three
+              generations and will continue to define our legacy."
+            </p>
+
+            <div class="flex items-center">
+              <div
+                class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mr-4"
+              >
+                <span class="text-white font-bold">AH</span>
+              </div>
+              <p class="text-primary font-medium">
+                Alexander Hartmann, CEO & Design Director
+              </p>
+            </div>
+          </div>
+          <div class="flex md:justify-end justify-center mx-10">
+            <div class="relative w-full max-w-lg">
+              <div
+                class="absolute inset-0 bg-white rounded-lg shadow-xl transform scale-100 -translate-y-6 translate-x-6"
+              ></div>
+
+              <div class="relative z-10 rounded-lg overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="CEO presenting our furniture philosophy to design conference audience"
+                  class="w-full h-auto object-cover aspect-[4/3]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="py-16 bg-primary text-white relative overflow-hidden">
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-3xl mx-auto text-center">
+          <div class="testimonial-swiper relative">
+            <div class="testimonial-slides overflow-hidden">
+              <div
+                class="testimonial-track flex transition-transform duration-500"
+              >
+                <div class="testimonial-slide w-full flex-shrink-0">
+                  <p class="text-xl md:text-2xl italic mb-8">
+                    "The craftsmanship of Tama Living furniture is exceptional.
+                    Each piece feels like it was made specifically for our home,
+                    with attention to detail that you simply can't find in
+                    mass-produced furniture."
+                  </p>
+                  <div
+                    class="w-12 h-12 bg-white rounded-full mx-auto mb-4 overflow-hidden"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+                      alt="Emily Parker"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p class="font-medium">
+                    Emily Parker, Interior Designer at Harmony Spaces
+                  </p>
+                </div>
+
+                <div class="testimonial-slide w-full flex-shrink-0">
+                  <p class="text-xl md:text-2xl italic mb-8">
+                    "We've furnished our entire office with Tama Living pieces.
+                    The quality is unmatched, and our clients always comment on
+                    how beautiful and comfortable our furniture is. It's an
+                    investment that pays off daily."
+                  </p>
+                  <div
+                    class="w-12 h-12 bg-white rounded-full mx-auto mb-4 overflow-hidden"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+                      alt="Michael Thompson"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p class="font-medium">
+                    Michael Thompson, CEO of Thompson & Associates
+                  </p>
+                </div>
+
+                <div class="testimonial-slide w-full flex-shrink-0">
+                  <p class="text-xl md:text-2xl italic mb-8">
+                    "As a sustainability advocate, I appreciate Tama Living's
+                    commitment to eco-friendly practices. Their furniture isn't
+                    just beautiful—it's responsibly made with materials that are
+                    kind to our planet."
+                  </p>
+                  <div
+                    class="w-12 h-12 bg-white rounded-full mx-auto mb-4 overflow-hidden"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+                      alt="Sarah Johnson"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p class="font-medium">
+                    Sarah Johnson, Environmental Consultant
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1 md:-translate-x-8 bg-white/10 hover:bg-white/20 text-white w-10 h-10 rounded-full flex items-center justify-center focus:outline-none transition-colors z-20"
+              id="testimonialPrev"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+            <button
+              class="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1 md:translate-x-8 bg-white/10 hover:bg-white/20 text-white w-10 h-10 rounded-full flex items-center justify-center focus:outline-none transition-colors z-20"
+              id="testimonialNext"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+
+            <!-- Indicators -->
+            <div class="flex justify-center space-x-2 mt-8">
+              <button
+                class="w-2 h-2 rounded-full bg-white/80 focus:outline-none testimonial-indicator active"
+                data-index="0"
+              ></button>
+              <button
+                class="w-2 h-2 rounded-full bg-white/30 hover:bg-white/50 focus:outline-none testimonial-indicator"
+                data-index="1"
+              ></button>
+              <button
+                class="w-2 h-2 rounded-full bg-white/30 hover:bg-white/50 focus:outline-none testimonial-indicator"
+                data-index="2"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg
+        class="absolute top-0 left-0 w-full"
+        viewBox="0 0 1440 320"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0,192L48,176C96,160,192,128,288,133.3C384,139,480,181,576,186.7C672,192,768,160,864,144C960,128,1056,128,1152,149.3C1248,171,1344,213,1392,234.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          fill="#363A2A"
+          fill-opacity="0.3"
+        ></path>
+      </svg>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4 md:px-6">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl font-bold text-primary mb-4">Our Collection</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Discover our handcrafted furniture pieces, designed with attention
+            to detail and made to last generations.
+          </p>
+        </div>
+
+        <div class="flex justify-center mb-8">
+          <div
+            class="inline-flex bg-white border border-gray-200 rounded-md p-1"
+          >
+            <button
+              class="category-filter px-4 py-2 rounded-md text-primary font-medium active"
+              data-category="all"
+            >
+              All
+            </button>
+            <button
+              class="category-filter px-4 py-2 rounded-md text-gray-600 hover:text-primary font-medium"
+              data-category="seating"
+            >
+              Seating
+            </button>
+            <button
+              class="category-filter px-4 py-2 rounded-md text-gray-600 hover:text-primary font-medium"
+              data-category="tables"
+            >
+              Tables
+            </button>
+            <button
+              class="category-filter px-4 py-2 rounded-md text-gray-600 hover:text-primary font-medium"
+              data-category="bedroom"
+            >
+              Bedroom
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          id="products-grid"
+        >
+          <div
+            class="product-card bg-white border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md"
+            data-category="seating"
+          >
+            <div class="relative h-64 bg-secondary/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Nordic Comfort Chair"
+                class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-lg font-semibold text-primary">
+                  Nordic Comfort Chair
+                </h3>
+                <span class="text-lg font-bold text-primary">$899</span>
+              </div>
+              <p class="text-gray-600 text-sm mb-3 line-clamp-2">
+                Our Nordic Comfort Chair combines Scandinavian design principles
+                with unparalleled comfort.
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                  <div class="flex text-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-xs text-gray-500 ml-2">(128)</span>
+                </div>
+                <button
+                  class="text-primary border border-primary hover:bg-primary hover:text-white transition-colors px-4 py-1 rounded text-sm font-medium"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product-card bg-white border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md"
+            data-category="seating"
+          >
+            <div class="relative h-64 bg-secondary/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Serene Lounge Sofa"
+                class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-lg font-semibold text-primary">
+                  Serene Lounge Sofa
+                </h3>
+                <span class="text-lg font-bold text-primary">$1899</span>
+              </div>
+              <p class="text-gray-600 text-sm mb-3 line-clamp-2">
+                The Serene Lounge Sofa offers timeless elegance with a
+                sustainable oak frame and plush upholstery.
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                  <div class="flex text-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-xs text-gray-500 ml-2">(95)</span>
+                </div>
+                <button
+                  class="text-primary border border-primary hover:bg-primary hover:text-white transition-colors px-4 py-1 rounded text-sm font-medium"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product-card bg-white border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md"
+            data-category="tables"
+          >
+            <div class="relative h-64 bg-secondary/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Artisan Dining Table"
+                class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-lg font-semibold text-primary">
+                  Artisan Dining Table
+                </h3>
+                <span class="text-lg font-bold text-primary">$2450</span>
+              </div>
+              <p class="text-gray-600 text-sm mb-3 line-clamp-2">
+                The Artisan Dining Table is crafted from solid walnut with
+                hand-finished details.
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                  <div class="flex text-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-xs text-gray-500 ml-2">(142)</span>
+                </div>
+                <button
+                  class="text-primary border border-primary hover:bg-primary hover:text-white transition-colors px-4 py-1 rounded text-sm font-medium"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product-card bg-white border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md"
+            data-category="bedroom"
+          >
+            <div class="relative h-64 bg-secondary/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Nordic Bed Frame"
+                class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-lg font-semibold text-primary">
+                  Nordic Bed Frame
+                </h3>
+                <span class="text-lg font-bold text-primary">$1750</span>
+              </div>
+              <p class="text-gray-600 text-sm mb-3 line-clamp-2">
+                Minimalist design with premium materials for a peaceful sleeping
+                environment.
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                  <div class="flex text-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-xs text-gray-500 ml-2">(87)</span>
+                </div>
+                <button
+                  class="text-primary border border-primary hover:bg-primary hover:text-white transition-colors px-4 py-1 rounded text-sm font-medium"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product-card bg-white border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md"
+            data-category="tables"
+          >
+            <div class="relative h-64 bg-secondary/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1594000311835-6d564e5a46b3?q=80&w=2855&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Minimalist Coffee Table"
+                class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-lg font-semibold text-primary">
+                  Minimalist Coffee Table
+                </h3>
+                <span class="text-lg font-bold text-primary">$1250</span>
+              </div>
+              <p class="text-gray-600 text-sm mb-3 line-clamp-2">
+                A sleek, functional coffee table that complements any living
+                space.
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                  <div class="flex text-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-xs text-gray-500 ml-2">(64)</span>
+                </div>
+                <button
+                  class="text-primary border border-primary hover:bg-primary hover:text-white transition-colors px-4 py-1 rounded text-sm font-medium"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="product-card bg-white border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md"
+            data-category="seating"
+          >
+            <div class="relative h-64 bg-secondary/20 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1580480055273-228ff5388ef8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Ergonomic Office Chair"
+                class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex justify-between items-start mb-2">
+                <h3 class="text-lg font-semibold text-primary">
+                  Ergonomic Office Chair
+                </h3>
+                <span class="text-lg font-bold text-primary">$1150</span>
+              </div>
+              <p class="text-gray-600 text-sm mb-3 line-clamp-2">
+                Designed for comfort during long work hours with adjustable
+                features.
+              </p>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                  <div class="flex text-secondary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-4 w-4 fill-secondary"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-xs text-gray-500 ml-2">(76)</span>
+                </div>
+                <button
+                  class="text-primary border border-primary hover:bg-primary hover:text-white transition-colors px-4 py-1 rounded text-sm font-medium"
+                >
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-10">
+          <div class="flex items-center gap-2">
+            <button
+              class="w-10 h-10 rounded-full border border-primary text-primary hover:bg-primary hover:text-white flex items-center justify-center transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+              <span class="sr-only">Previous page</span>
+            </button>
+            <button
+              class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center"
+            >
+              1
+            </button>
+            <button
+              class="w-10 h-10 rounded-full text-primary hover:bg-primary/10 flex items-center justify-center"
+            >
+              2
+            </button>
+            <button
+              class="w-10 h-10 rounded-full text-primary hover:bg-primary/10 flex items-center justify-center"
+            >
+              3
+            </button>
+            <button
+              class="w-10 h-10 rounded-full border border-primary text-primary hover:bg-primary hover:text-white flex items-center justify-center transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+              <span class="sr-only">Next page</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-primary-dark text-white py-16">
+      <div class="container mx-auto px-4 md:px-6">
+        <div class="flex flex-col md:flex-row">
+          <!-- Left Brand Section -->
+          <div class="md:w-1/5 mb-8 md:mb-0">
+            <h2 class="text-2xl font-bold">Tama Living</h2>
+          </div>
+
+          <div class="md:w-2/5 mb-8 md:mb-0 md:pr-12">
+            <h3 class="text-sm uppercase tracking-wider text-gray-400 mb-4">
+              Latest Blog Post
+            </h3>
+            <h4 class="text-xl font-semibold mb-3">
+              Crafting Sustainable Futures
+            </h4>
+            <p class="text-gray-300 text-sm leading-relaxed">
+              Discover how our commitment to sustainable forestry is helping
+              preserve natural habitats while creating furniture that lasts
+              generations. Our latest collection combines traditional
+              craftsmanship with innovative eco-friendly techniques.
+            </p>
+          </div>
+
+          <div
+            class="md:w-2/5 md:border-l md:border-gray-700 md:pl-12 flex flex-col"
+          >
+            <div class="grid grid-cols-2 gap-8 mb-12">
+              <div>
+                <h3 class="text-sm uppercase tracking-wider text-gray-400 mb-4">
+                  Collections
+                </h3>
+                <ul class="space-y-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Living Room</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Dining & Kitchen</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Bedroom</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Office</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Outdoor</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="text-sm uppercase tracking-wider text-gray-400 mb-4">
+                  Company
+                </h3>
+                <ul class="space-y-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Our Story</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Craftsmanship</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Sustainability</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Showrooms</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-gray-300 hover:text-white transition-colors"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="text-sm text-gray-400">
+              <p>© 2025 Tama Living</p>
+              <div class="flex mt-2">
+                <a href="#" class="hover:text-white transition-colors"
+                  >Privacy</a
+                >
+                <span class="mx-2">—</span>
+                <a href="#" class="hover:text-white transition-colors">Terms</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script defer src="/src/js/script.js"></script>
+  </body>
+</html>
