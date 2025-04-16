@@ -1,6 +1,7 @@
 // scripts.js
 
-// Mobile Menu Toggle and Sticky Header
+
+  // Mobile Menu Toggle and Sticky Header
 function initializeNavigation() {
   const menuToggle = document.getElementById("menuToggle");
   const mobileMenu = document.getElementById("mobileMenu");
@@ -66,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
   initializeNavigation();
   
 });
-  
+
   // Testimonial Slider
   function initializeTestimonialSlider() {
     const track = document.querySelector(".testimonial-track");
@@ -176,7 +177,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Initialize all features when DOM is loaded
   document.addEventListener("DOMContentLoaded", () => {
-    initializeMobileMenu();
     initializeTestimonialSlider();
     initializeProductFilter();
   });
